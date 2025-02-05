@@ -1,0 +1,20 @@
+.mobile-wallpaper {
+    background-image:url("https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/09/IMG_20220919_152704.jpg?ssl=1") ;
+    animation: changeBg 12s infinite;
+    background-size: cover; /* Optional: to cover the entire element */
+    
+}
+@keyframes changeBg {
+    10%{
+        background-image:url("https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/09/IMG_20220919_152704.jpg?ssl=1") ;
+    }
+    25%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvFLrWE7R_gE0iFgwfia3-x9n1uTplx77tEg&s");
+    }
+    50%{
+        background-image: url("https://cdn.digitbin.com/wp-content/uploads/Open-the-Instagram-app-on-your-smartphone.jpg");
+    }
+    100%{
+        background-image: url("https://www.minitool.com/images/uploads/news/2023/02/instagram-login-sign-up/instagram-login-sign-up-2.png");
+    }
+}
